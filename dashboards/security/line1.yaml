@@ -1,0 +1,9 @@
+myiframe2:
+    widget_type: iframe 
+    title: test_iframe
+    url_list: 
+      - http://delahuntyfam.tk
+
+
+layout:
+    - myiframe2(8x4)

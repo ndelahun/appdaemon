@@ -1,0 +1,17 @@
+#
+# Main arguments, all optional
+#
+title: Media
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+#
+# Includes (Optional)
+#
+layout:
+    - include: media/line1
+    - include: media/line2
+    - include: media/line3
+    - include: media/line4
+    - include: media/line5
+    - include: mainnav

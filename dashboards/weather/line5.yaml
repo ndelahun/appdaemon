@@ -1,0 +1,35 @@
+rain:
+    widget_type: sensor
+    title: Rain
+    entity: sensor.dark_sky_precip_intensity
+
+rain_chance:
+    widget_type: sensor
+    title: Chance of Rain
+    entity: sensor.dark_sky_precip_probability
+
+Cloud:
+    widget_type: sensor
+    title: Cloud Cover
+    text_style: "font-size: 150%;"
+    entity: sensor.bom_bathurst_cloud
+
+visability:
+    widget_type: sensor
+    title: Visability
+    entity: sensor.bom_bathurst_visability_km
+
+wind_dir:
+    widget_type: sensor
+    title: Wind Direction
+    text_style: "font-size: 250%;"
+    entity: sensor.bom_bathurst_wind_direction
+
+wind_speed:
+    widget_type: sensor
+    title: Wind Speed
+    entity: sensor.bom_bathurst_wind_speed_kmh
+
+
+layout:
+    - rain, rain_chance, spacer, Cloud, visability, spacer, wind_dir, wind_speed

@@ -1,0 +1,15 @@
+#
+# Main arguments, all optional
+#
+title: Main Panel
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+
+layout:
+    - include: main/line1
+    - include: main/line2
+    - include: main/line3
+    - include: main/line4
+    - include: main/line5
+    - include: mainnav

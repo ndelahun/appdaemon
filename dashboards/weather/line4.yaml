@@ -1,0 +1,13 @@
+pressure:
+    widget_type: sensor
+    title: Pressure
+    entity: sensor.dark_sky_pressure
+
+uv:
+    widget_type: sensor
+    title: PUV Index
+    units: mW
+    entity: sensor.dark_sky_uv_index
+
+layout:
+    - spacer, pressure, uv

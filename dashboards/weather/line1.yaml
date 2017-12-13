@@ -1,0 +1,19 @@
+weather_frame:
+    widget_type: iframe
+    title: Radar
+    frame_style: ""
+    url_list: 
+      - https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=071&brand=wui&num=10&delay=15&type=A0Q&frame=0&scale=0.75&noclutter=0&showstorms=0&mapx=400&mapy=240&centerx=427&centery=219&transx=27&transy=-21&showlabels=1&severe=0&rainsnow=1&lightning=0&smooth=0&rand=25180584&lat=0&lon=0&label=you
+
+temp_high:
+    widget_type: sensor
+    title: Today's High
+    entity: sensor.dark_sky_daily_high_apparent_temperature
+
+temp_low:
+    widget_type: sensor
+    title: Today's Low
+    entity: sensor.dark_sky_daily_low_apparent_temperature
+
+layout:
+    - weather_frame(5x4), spacer, temp_high, temp_low

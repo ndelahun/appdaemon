@@ -1,0 +1,16 @@
+#
+# Main arguments, all optional
+#
+title: Climate
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+
+
+layout:
+    - include: climate/line1
+    - include: climate/line2
+    - include: climate/line3
+    - include: climate/line4
+    - include: climate/line5
+    - include: mainnav

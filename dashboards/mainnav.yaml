@@ -1,0 +1,50 @@
+load_main_panel:
+    widget_type: navigate
+    title: Main Panel
+    icon_inactive: fa-home
+    dashboard: MainPanel
+
+load_weather:
+    widget_type: navigate
+    title: Weather
+    icon_inactive: fa-cloud
+    dashboard: Weather
+
+load_controls:
+    widget_type: navigate
+    title: System
+    icon_inactive: fa-gear
+    dashboard: System
+    
+load_climate:
+    widget_type: navigate
+    title: Climate
+    icon_inactive: fa-thermometer
+    dashboard: Climate
+    
+load_waterme:
+    widget_type: navigate
+    title: Irrigation
+    icon_inactive: mdi-barley
+    dashboard: waterme
+    
+load_lights:
+    widget_type: navigate
+    title: Lights
+    icon_inactive: fa-lightbulb-o
+    dashboard: lights
+    
+load_security:
+    widget_type: navigate
+    title: Security
+    icon_inactive: fa-video-camera
+    dashboard: Secure
+    
+load_media:
+    widget_type: navigate
+    title: Media Devices
+    icon_inactive: fa-tv
+    dashboard: media
+    
+layout: 
+    - load_main_panel, load_weather, load_lights, load_media, load_security, load_climate, load_waterme, load_controls

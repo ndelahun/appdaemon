@@ -1,0 +1,17 @@
+#
+# Main arguments, all optional
+#
+title: System
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+#
+# Includes (Optional)
+#
+layout:
+    - include: system/line1
+    - include: system/line2
+    - include: system/line3
+    - include: system/line4
+    - include: system/line5
+    - include: mainnav

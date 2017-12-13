@@ -1,0 +1,15 @@
+#
+# Main arguments, all optional
+#
+title: Weather
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+
+layout:
+    - include: weather/line1
+    - include: weather/line2
+    - include: weather/line3
+    - include: weather/line4
+    - include: weather/line5
+    - include: mainnav

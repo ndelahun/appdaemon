@@ -1,0 +1,12 @@
+temp_feels:
+    widget_type: sensor
+    title: Feels Like
+    entity: sensor.bom_bathurst_feels_like_c
+
+temp_current:
+    widget_type: sensor
+    title: Actual Temp
+    entity: sensor.bom_bathurst_air_temp_c
+
+layout:
+    - spacer, temp_feels, temp_current

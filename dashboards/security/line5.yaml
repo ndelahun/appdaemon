@@ -1,0 +1,20 @@
+button1:
+    widget_type: navigate
+    title: button1
+    icon_inactive: fa-home
+    url: http://192.168.1.5/1.html
+
+button2:
+    widget_type: navigate
+    title: button2
+    icon_inactive: fa-home
+    url: http://192.168.1.5/2.html
+ 
+button3:
+    widget_type: navigate
+    title: button3
+    icon_inactive: fa-home
+    url: http://192.168.1.5/3.html
+
+layout:
+    - spacer, button1, spacer, button2, spacer, button3, spacer

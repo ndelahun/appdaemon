@@ -1,0 +1,13 @@
+weather_desc:
+    widget_type: sensor
+    title: Weather
+    text_style: "font-size: 200%;"
+    entity: sensor.bom_bathurst_weather
+
+humidity:
+    widget_type: sensor
+    title: Humidity
+    entity: sensor.bom_bathurst_relative_humidity
+
+layout:
+    - spacer, weather_desc, humidity

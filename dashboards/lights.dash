@@ -1,0 +1,18 @@
+#
+# Main arguments, all optional
+#
+title: Lights
+widget_dimensions: [122, 120]
+widget_margins: [5, 5]
+columns: 8
+
+#
+# Includes (Optional)
+#
+layout:
+    - include: lights/line1
+    - include: lights/line2
+    - include: lights/line3
+    - include: lights/line4
+    - include: lights/line5
+    - include: mainnav
